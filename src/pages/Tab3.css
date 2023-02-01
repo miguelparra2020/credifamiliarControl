@@ -1,8 +1,0 @@
-#centrar{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-#contenedor_botones{
-    max-width: 400px;
-}
