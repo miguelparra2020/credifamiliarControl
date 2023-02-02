@@ -10,7 +10,7 @@ import {
   setupIonicReact
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { cash,  home,  newspaper,  thumbsUp,  } from 'ionicons/icons';
+import { bagCheckOutline, cartOutline,    fileTrayStackedOutline,   home,  } from 'ionicons/icons';
 import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
@@ -66,16 +66,15 @@ const App: React.FC = () => (
             <IonLabel>Inicio</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab2" href="/tab2">
-            <IonIcon icon={cash} />
-            <IonLabel>Solicitar</IonLabel>
+            <IonIcon icon={cartOutline} />
+            <IonLabel>Compras</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab3" href="/tab3">
-            <IonIcon icon={thumbsUp} />
-            <IonLabel>Pagar</IonLabel>
+            <IonIcon icon={bagCheckOutline} />
+            <IonLabel>Ventas</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab4" href="/tab4">
-            <IonIcon icon={newspaper} />
-            <IonLabel>Información</IonLabel>
+            <IonIcon icon={fileTrayStackedOutline} />            <IonLabel>Inventario</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
