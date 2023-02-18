@@ -67,23 +67,23 @@ const App: React.FC = () => (
         <IonTabBar slot="bottom">
           <IonTabButton tab="tab1" href="/tab1">
             <IonIcon icon={home} />
-            <IonLabel>Inicio</IonLabel>
+            <IonLabel>Saldo</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab2" href="/tab2">
             <IonIcon icon={cartOutline} />
-            <IonLabel>Compras</IonLabel>
+            <IonLabel>Activas</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab3" href="/tab3">
             <IonIcon icon={bagCheckOutline} />
-            <IonLabel>Ventas</IonLabel>
+            <IonLabel>Terminadas</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab4" href="/tab4">
             <IonIcon icon={fileTrayStackedOutline} />            
-            <IonLabel>Inventario</IonLabel>
+            <IonLabel>Solicitudes</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab5" href="/tab5">
             <IonIcon icon={globeOutline} />            
-            <IonLabel>Web</IonLabel>
+            <IonLabel>Chat</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
