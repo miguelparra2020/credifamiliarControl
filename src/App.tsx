@@ -10,7 +10,7 @@ import {
   setupIonicReact
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { bagCheckOutline, cartOutline,    fileTrayStackedOutline,   globeOutline,   home,  } from 'ionicons/icons';
+import { bagCheckOutline,     cashOutline,    checkmarkDoneCircleOutline,    closeCircleOutline,    fileTrayStackedOutline,   globeOutline,   home,  } from 'ionicons/icons';
 import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
@@ -66,19 +66,19 @@ const App: React.FC = () => (
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
           <IonTabButton tab="tab1" href="/tab1">
-            <IonIcon icon={home} />
+            <IonIcon color="success" icon={cashOutline} />
             <IonLabel>Saldo</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab2" href="/tab2">
-            <IonIcon icon={cartOutline} />
-            <IonLabel>Activas</IonLabel>
+            <IonIcon color="success" icon={checkmarkDoneCircleOutline} />
+            <IonLabel >Activas</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab3" href="/tab3">
-            <IonIcon icon={bagCheckOutline} />
+            <IonIcon color="warning" icon={closeCircleOutline} />
             <IonLabel>Terminadas</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab4" href="/tab4">
-            <IonIcon icon={fileTrayStackedOutline} />            
+            <IonIcon  color="primary" icon={fileTrayStackedOutline} />            
             <IonLabel>Solicitudes</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab5" href="/tab5">
