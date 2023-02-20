@@ -13,7 +13,11 @@ const Tab1: React.FC = () => {
           <Toolbar/>
       </IonHeader>
       <IonContent fullscreen >
-      Tab 1
+        <div className=''>
+        <div className='Titulo'>
+          Saldo Actual
+        </div>
+        </div>
         {/* Footer */}
         <Footer/>
         {/* Footer */}
