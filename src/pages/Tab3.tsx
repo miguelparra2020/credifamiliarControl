@@ -9,7 +9,7 @@ const Tab3: React.FC = () => {
         <Toolbar/>
       </IonHeader>
       <IonContent fullscreen>
-        Tab 3 
+        Cuotas Terminadas 
       </IonContent>
     </IonPage>
   );
