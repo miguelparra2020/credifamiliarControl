@@ -48,6 +48,7 @@ const Tab1: React.FC = () => {
           <IonCard >
             <IonCardHeader>
               <IonCardTitle>Depositos</IonCardTitle>
+              <IonCardSubtitle>Total depositos: <br /><IonLabel color="success">💵 $50.000</IonLabel></IonCardSubtitle>
             </IonCardHeader>
             <IonCardContent>
               {
